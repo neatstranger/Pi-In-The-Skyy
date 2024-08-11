@@ -1,0 +1,721 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55")
+	(paper "A4")
+	(title_block
+		(title "Compute Module 4 IO Board - Top Level")
+		(rev "1")
+		(company "© 2020-2022 Raspberry Pi Ltd (formerly Raspberry Pi (Trading) Ltd.)")
+		(comment 1 "www.raspberrypi.com")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 151.13 116.84) (xy 151.13 101.6)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "29256b3d-9450-4c0a-a4d4-911f04b9c140")
+	)
+	(wire
+		(pts
+			(xy 137.16 101.6) (xy 137.16 116.84)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "2bef89de-08c7-4a13-9d85-67948d429ca0")
+	)
+	(wire
+		(pts
+			(xy 162.56 116.84) (xy 162.56 101.6)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "2d6718e7-f18d-444d-9792-ddf1a113460c")
+	)
+	(wire
+		(pts
+			(xy 208.28 132.08) (xy 218.44 132.08)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "2d6fe25f-d13f-47b8-a5cf-79c02217ab30")
+	)
+	(wire
+		(pts
+			(xy 147.32 101.6) (xy 147.32 116.84)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "37e4dc66-4492-4061-908d-7213940a2ec3")
+	)
+	(wire
+		(pts
+			(xy 168.91 135.89) (xy 179.07 135.89)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "43891a3c-749f-498d-ba99-685a27689b0d")
+	)
+	(wire
+		(pts
+			(xy 140.97 101.6) (xy 140.97 116.84)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "483f60da-14d7-4f88-8d01-3f9f30784c70")
+	)
+	(wire
+		(pts
+			(xy 119.38 77.47) (xy 132.08 77.47)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "7e969d15-6cc0-4258-8b27-586608a21adb")
+	)
+	(wire
+		(pts
+			(xy 168.91 144.78) (xy 218.44 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b163e1fb-8a86-47a2-80d9-3354a56483cb")
+	)
+	(wire
+		(pts
+			(xy 158.75 101.6) (xy 158.75 116.84)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "b603d26a-e034-42fb-8327-b60c5bf9cdd2")
+	)
+	(wire
+		(pts
+			(xy 154.94 116.84) (xy 154.94 101.6)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "b994142f-02ac-4881-9587-6d3df53c96d2")
+	)
+	(wire
+		(pts
+			(xy 132.08 81.28) (xy 119.38 81.28)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "cb868d2e-5efb-4bfb-8796-88435b326918")
+	)
+	(wire
+		(pts
+			(xy 179.07 130.81) (xy 168.91 130.81)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "cbc539d2-6a10-4052-9b7a-f10326dcac67")
+	)
+	(wire
+		(pts
+			(xy 121.92 137.16) (xy 132.08 137.16)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "f022716e-b121-4cbf-a833-20e924070c22")
+	)
+	(wire
+		(pts
+			(xy 121.92 130.81) (xy 121.92 116.84)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "f1dd8642-b405-490b-a449-d1cc5797fda8")
+	)
+	(wire
+		(pts
+			(xy 132.08 130.81) (xy 121.92 130.81)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "fc0a4225-db46-4d48-8163-d522602d57cd")
+	)
+	(text "Connectors\n-------\nEthernet\nSDCARD\n40way RPI\nJumpers"
+		(exclude_from_sim no)
+		(at 146.05 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a501555e-bbc7-4b58-ad89-28a0cd3dd6d0")
+	)
+	(text "Connectors\n-------\nHDMI 0\nHDMI 1\nCSI 0\nCSI 1\nDSI 0\nDSI 1"
+		(exclude_from_sim no)
+		(at 144.78 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "db83d0af-e085-4050-8496-fa2ebdecbd62")
+	)
+	(label "+5v"
+		(at 208.28 132.08 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "319f106d-4c92-4b04-aad0-cf7a6e058791")
+	)
+	(label "+5v"
+		(at 170.18 130.81 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "55992e35-fe7b-468a-9b7a-1e4dc931b904")
+	)
+	(label "+5v"
+		(at 123.19 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5740c959-93d8-47fd-8f68-62f0109e753d")
+	)
+	(label "+3.3v"
+		(at 170.18 135.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a06e8e78-f567-42e6-b645-013b1073ca31")
+	)
+	(label "+3.3v"
+		(at 123.19 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c3c93de0-69b1-4a04-8e0b-d78caf487c63")
+	)
+	(label "nEXTRST"
+		(at 123.19 137.16 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f9865a9f-edb8-49c7-828f-4896e1f3047a")
+	)
+	(sheet
+		(at 132.08 116.84)
+		(size 36.83 31.75)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 132 0 132 1)
+		)
+		(fill
+			(color 255 255 255 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00005cff706a")
+		(property "Sheetname" "CM4_GPIO ( Ethernet, GPIO, SDCARD)"
+			(at 132.08 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CM4_GPIO.kicad_sch"
+			(at 132.08 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ID_SC" output
+			(at 162.56 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2e642b3e-a476-4c54-9a52-dcea955640cd")
+		)
+		(pin "ID_SD" output
+			(at 158.75 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5038e144-5119-49db-b6cf-f7c345f1cf03")
+		)
+		(pin "CAM_GPIO" output
+			(at 151.13 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ac264c30-3e9a-4be2-b97a-9949b68bd497")
+		)
+		(pin "SCL0" output
+			(at 140.97 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "54365317-1355-4216-bb75-829375abc4ec")
+		)
+		(pin "SDA0" output
+			(at 137.16 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a3e4f0ae-9f86-49e9-b386-ed8b42e012fb")
+		)
+		(pin "+5v" input
+			(at 168.91 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a690fc6c-55d9-47e6-b533-faa4b67e20f3")
+		)
+		(pin "+3.3v" output
+			(at 168.91 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c144caa5-b0d4-4cef-840a-d4ad178a2102")
+		)
+		(pin "nEXTRST" output
+			(at 132.08 137.16 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "efeac2a2-7682-4dc7-83ee-f6f1b23da506")
+		)
+		(pin "GLOBAL_EN" input
+			(at 132.08 130.81 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5fc27c35-3e1c-4f96-817c-93b5570858a6")
+		)
+		(pin "GPIO_VREF" output
+			(at 147.32 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6c9b793c-e74d-4754-a2c0-901e73b26f1c")
+		)
+		(pin "TV_OUT" input
+			(at 154.94 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6a45789b-3855-401f-8139-3c734f7f52f9")
+		)
+		(pin "POE_VDD+" input
+			(at 168.91 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "104a5e01-26d4-4c2c-a9fb-bd8c0d2d3c58")
+		)
+		(instances
+			(project "CM4IOv5"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 132.08 39.37)
+		(size 36.83 62.23)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 132 0 132 1)
+		)
+		(fill
+			(color 255 255 255 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00005cff70b1")
+		(property "Sheetname" "CM4_HighSpeed"
+			(at 132.08 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CM4_HighSpeed.kicad_sch"
+			(at 132.08 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB2_N" bidirectional
+			(at 132.08 55.88 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fd470e95-4861-44fe-b1e4-6d8a7c66e144")
+		)
+		(pin "USB2_P" bidirectional
+			(at 132.08 53.34 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8174b4de-74b1-48db-ab8e-c8432251095b")
+		)
+		(pin "ID_SC" input
+			(at 162.56 101.6 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "704d6d51-bb34-4cbf-83d8-841e208048d8")
+		)
+		(pin "ID_SD" input
+			(at 158.75 101.6 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0eaa98f0-9565-4637-ace3-42a5231b07f7")
+		)
+		(pin "CAM_GPIO" input
+			(at 151.13 101.6 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "181abe7a-f941-42b6-bd46-aaa3131f90fb")
+		)
+		(pin "SCL0" input
+			(at 140.97 101.6 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ce83728b-bebd-48c2-8734-b6a50d837931")
+		)
+		(pin "SDA0" input
+			(at 137.16 101.6 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c41b3c8b-634e-435a-b582-96b83bbd4032")
+		)
+		(pin "+5v" input
+			(at 132.08 77.47 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9340c285-5767-42d5-8b6d-63fe2a40ddf3")
+		)
+		(pin "PCIE_CLK_P" output
+			(at 168.91 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1831fb37-1c5d-42c4-b898-151be6fca9dc")
+		)
+		(pin "PCIE_CLK_N" output
+			(at 168.91 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0f22151c-f260-4674-b486-4710a2c42a55")
+		)
+		(pin "PCIE_TX_P" output
+			(at 168.91 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fe8d9267-7834-48d6-a191-c8724b2ee78d")
+		)
+		(pin "PCIE_TX_N" output
+			(at 168.91 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0b21a65d-d20b-411e-920a-75c343ac5136")
+		)
+		(pin "PCIE_nRST" output
+			(at 168.91 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3cd1bda0-18db-417d-b581-a0c50623df68")
+		)
+		(pin "PCIE_RX_P" input
+			(at 168.91 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d57dcfee-5058-4fc2-a68b-05f9a48f685b")
+		)
+		(pin "PCIE_RX_N" input
+			(at 168.91 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "03c52831-5dc5-43c5-a442-8d23643b46fb")
+		)
+		(pin "PCIE_CLK_nREQ" input
+			(at 168.91 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a1823eb2-fb0d-4ed8-8b96-04184ac3a9d5")
+		)
+		(pin "+3.3v" input
+			(at 132.08 81.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "29e78086-2175-405e-9ba3-c48766d2f50c")
+		)
+		(pin "USBOTG_ID" input
+			(at 132.08 60.96 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "94a873dc-af67-4ef9-8159-1f7c93eeb3d7")
+		)
+		(pin "GPIO_VREF" input
+			(at 147.32 101.6 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4c8eb964-bdf4-44de-90e9-e2ab82dd5313")
+		)
+		(pin "TV_OUT" output
+			(at 154.94 101.6 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "aa14c3bd-4acc-4908-9d28-228585a22a9d")
+		)
+		(instances
+			(project "CM4IOv5"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 218.44 120.65)
+		(size 40.64 29.21)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2a5db28e-1478-4f10-85f0-96b2cf5826ad")
+		(property "Sheetname" "PSUS"
+			(at 218.44 119.9384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PSUS.kicad_sch"
+			(at 218.44 150.4446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "POE_IN" input
+			(at 218.44 144.78 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "643d6a75-b0f5-41b0-807a-ecafae60ee5e")
+		)
+		(pin "5V" input
+			(at 218.44 132.08 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "47626192-f885-4fc5-a043-b926da1f07e6")
+		)
+		(instances
+			(project "CM4IOv5"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
