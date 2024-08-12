@@ -51,3 +51,7 @@ Active PoE requires components on the baord to negotiate power delivery. Which t
 - [100mm Acrylic Dome](https://www.amazon.com/dp/B07L6GLTNP?psc=1&ref=product_details)
 - Various Fasteners and Heat Set Inserts. M3 for Most of Assembly, M2 For Camera Module
 - [Gland For Cable Passthrough](https://www.mcmaster.com/5302N121/)
+
+
+RPi Start Stream
+ rpicam-vid -t 0 --width 1920 --height 1080 --inline --nopreview --rotation 180 -o - | cvlc stream:///dev/stdin --sout '#rtp{sdp=rtsp://:8554/stream1}' :demux=h264
