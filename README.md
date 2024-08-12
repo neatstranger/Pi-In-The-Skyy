@@ -53,5 +53,36 @@ Active PoE requires components on the baord to negotiate power delivery. Which t
 - [Gland For Cable Passthrough](https://www.mcmaster.com/5302N121/)
 
 
-RPi Start Stream
- rpicam-vid -t 0 --width 1920 --height 1080 --inline --nopreview --rotation 180 -o - | cvlc stream:///dev/stdin --sout '#rtp{sdp=rtsp://:8554/stream1}' :demux=h264
+## Systemd Service for Streaming `/etc/systemd/system/camera-stream.service`
+```
+[Unit]
+Description=open-source-nvr
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+User=<user>
+Group=<user>
+Type=simple
+ExecStart=/bin/sh /var/camstart.sh
+
+[Install]
+WantedBy=multi-user.target
+```
+^^^ Make sure to replace <user> with your login account.
+
+## `/var/camstart.sh`
+```
+#!/bin/sh
+rpicam-vid -t 0 --width 1920 --height 1080 --inline --nopreview --rotation 180 -o - | cvlc stream:///dev/stdin --sout '#rtp{sdp=rtsp://:8554/stream1}' :demux=h264
+
+```
+
+
+## After Creating both Files
+```
+sudo chmod +x /var/camstart.sh # make the service executable
+sudo systemctl daemon-reload #reload the system file
+sudo systemctl start camera-stream #start the camera stream
+sudo systemctl enable camera-stream
+```
