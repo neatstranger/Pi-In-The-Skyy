@@ -3,7 +3,7 @@
 A PoE powered camera based on the Raspberry Pi Compute Module 4.
 <br>
 
-<img src="/Assets/PCB-Front.jpg" alt="drawing" width="425"/> <img src="/Assets/PCB-Back.jpg" alt="drawing" width="425"/> 
+<img src="/Assets/PCB-Front.jpg" alt="drawing" width="400"/> <img src="/Assets/PCB-Back.jpg" alt="drawing" width="400"/> 
 
 ----
 
